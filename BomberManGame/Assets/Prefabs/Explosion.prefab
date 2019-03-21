@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2044224692544522756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2044224692544522757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3c48964e2136d4bb1e28db2d0daa57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explodeCenterPrefab: {fileID: 6266710027446514201, guid: b9fd381fe9bfb32449a3ceccf21a625c,
+    type: 2}
+  explodeHBridgePrefab: {fileID: 1684731497489716260, guid: 16a24d4e346110242836e9b75fd8005d,
+    type: 2}
+  explodeVBridgePrefab: {fileID: 1801846338933810595, guid: e465f98a5ff9de6448735c6322fd495e,
+    type: 2}
+  explodeTopPrefab: {fileID: 1801846338933810595, guid: e465f98a5ff9de6448735c6322fd495e,
+    type: 2}
+  explodeRightPrefab: {fileID: 6845745729236185993, guid: 0607ad95fae734948a40b0d39b69f9ee,
+    type: 2}
+  explodeBottomPrefab: {fileID: 6143723790550363167, guid: 834959829a6e8cf48af4c2c91f1c39b7,
+    type: 2}
+  explodeLeftPrefab: {fileID: 7959045636483646959, guid: 220b0b35917bb8649ae95742dec6b792,
+    type: 2}
+--- !u!1 &2044224692544522757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044224692544522875}
+  - component: {fileID: 2044224692544522756}
+  m_Layer: 0
+  m_Name: Explosion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044224692544522875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2044224692544522757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.82288116, y: -0.12438727, z: -0.007619835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -2,6 +2,7 @@
 UnityProject Of NES Bomberman
 
 Players can be two to four. (If two players needed just switch off extra bomberman in heirarchy).
+Controls can be checked in PlayerControls.cs
 
 Procedural Grid-
 Grid Size is customisable.
